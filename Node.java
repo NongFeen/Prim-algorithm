@@ -22,7 +22,7 @@ public class Node {
         return name;
     }
     public void addWays(Node nd, int distance){
-        this.ways.put(nd,distance);
+        this.getWays().put(nd,distance);
     }
 
 }

@@ -4,7 +4,7 @@ import java.util.Map;
 public class Node {
     private String name;
     public static Node NULL_NODE = new Node(null);
-    public Map<Node, Integer> ways = new HashMap<>();
+    private Map<Node, Integer> ways = new HashMap<>();
     
     Node(String n){
         this.name = n;

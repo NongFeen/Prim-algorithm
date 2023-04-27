@@ -72,7 +72,7 @@ public class SpanningTrees {
                     }
                 }
             }
-            System.out.println("From "+ originOfLowestNode + " -> " +lowestNode +" "+ lowestDistance);
+            System.out.println(originOfLowestNode + " \t--->   " +lowestNode +" "+ lowestDistance);
             storeList.add(lowestNode);
         }
     }

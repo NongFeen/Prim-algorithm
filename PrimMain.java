@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class PrimMain{
     static String[] wayList = {"Minneapolis,Chicago,355",
@@ -13,11 +12,8 @@ public class PrimMain{
         "Louisville,Detroit,306",
         "Cincinnati,Detroit,230"};
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String input = sc.nextLine();
         SpanningTrees spTree = new SpanningTrees(wayList);
-        spTree.findMinSpanTree(input);
-        sc.close();
+        spTree.findMinSpanTree(new Intro().toString());
     }
       
 }
